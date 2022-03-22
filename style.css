@@ -1,0 +1,115 @@
+@font-face {
+  font-family: Fredericka;
+  src: url(./fonts/FrederickatheGreat-Regular.ttf);
+}
+@font-face {
+  font-family: Monoton;
+  src: url(./fonts/Monoton-Regular.ttf);
+}
+@font-face {
+  font-family: Rye;
+  src: url(./fonts/Rye-Regular.ttf);
+}
+@font-face {
+  font-family: Elite;
+  src: url(./fonts/SpecialElite-Regular.ttf);
+}
+nav {
+  width: 100%;
+  background-color: orangered;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "Elite";
+}
+nav i {
+  font-size: 30px;
+}
+nav ul {
+  list-style-type: none;
+  display: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  right: 0px;
+  top: 50px;
+  width: 100px;
+  background-color: orangered;
+  height: 150px;
+  padding: 0;
+}
+nav ul li {
+  width: 100%;
+  text-align: center;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav #menu {
+  display: inline;
+  margin-right: 30px;
+}
+
+@media (min-width: 600px) {
+  nav ul {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+    position: relative;
+    right: auto;
+    top: auto;
+    width: auto;
+    height: auto;
+    width: 300px;
+    display: flex;
+  }
+  nav #menu {
+    display: none;
+  }
+}
+footer {
+  background-color: orange;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+footer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+
+@media (min-width: 600px) {
+  footer div {
+    flex-direction: row;
+  }
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+}
+
+i {
+  color: white;
+}
+
+main {
+  height: 400px;
+}
+
+h1 {
+  margin: 30px 0px 0px 30px;
+}/*# sourceMappingURL=style.css.map */
